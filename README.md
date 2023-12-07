@@ -1,6 +1,18 @@
 # DECO-7180--Design-Computing-Studio-1---Interactive-Technology
 Design Computing Studio 1 - Interactive Technology
 
+# Project introduction:
+Our concept provides stress-free parking and a safe dining experience for suburban families. We achieved this by incorporating several datasets from the QLD government website in the following ways:
+We use [Eat Safe](https://www.data.brisbane.qld.gov.au/data/dataset/food-safety-permits/resource/69ed0503-43db-4873-abd6-9fcc500b805b) Brisbane dataset to help families make informed food and dining choices about a particular restaurant they are interested in going to.
+In addition, to ensure a simplified parking experience and a stress-free journey to the restaurant we use [occupancy forecasting](https://www.data.brisbane.qld.gov.au/data/dataset/parking-occupancy-forecasting) and [parking meter](https://www.data.brisbane.qld.gov.au/data/dataset/brisbane-parking-meters/resource/fb42db12-7c82-40bb-8d3c-4f6119540edc) locations datasets to display parking places and number of free parking spots on the map.
+
+We worked as a team, deployed rapid design methodology, created an MVP model and refined the concept numerous times throughout the semester. The final concept is based on extensive research, feedback from students and analysis of findings. We started by identifying the needs of a modern family living in the Suburb. In addition, through user testing sessions we improved our initial version of the prototype, tried to solve usability issues and created a solution that helps young parents with children enjoy a Friday evening in a restaurant and share that precious moment as a family.
+
+
+
+
+
+
 ## A1 - [Annotated Process Portfolio (x3)](https://github.com/carriewang1/DECO-7180--Design-Computing-Studio-1---Interactive-Technology/tree/main/Responsive%20Portfolio%20Website)
 This assessment is identity verified by teaching staff closely monitoring the individual work of students through students' participation and working on projects in class.
 
