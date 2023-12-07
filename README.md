@@ -6,19 +6,18 @@ This assessment is identity verified by teaching staff closely monitoring the in
 
 ### [Journal](https://github.com/carriewang1/DECO-7180--Design-Computing-Studio-1---Interactive-Technology/blob/main/Journal%20.pdf):
 
-Documentation of Work (x3) Detailed, considered and consistent documentation of individual work, clearly supported with evidence.
-Reflection on Work (x3) Reflections are critical with well-considered suggestions for improvement, it is clear that reflections have been used to refine & inform the process over the semester.
-Coverage & representation of Learning (x3) Entries are regular & consistent across the semester, demonstrating consideration of and engagement with course materials through integration of research and critical analysis of project and individual process.
+Documentation of Work (x3) Detailed, considered, and consistent documentation of individual work, clearly supported with evidence.
+Reflection on Work (x3) Reflections are critical with well-considered suggestions for improvement; it is clear that reflections have been used to refine & inform the process over the semester.
+Coverage & representation of Learning (x3) Entries are regular & consistent across the semester, demonstrating consideration of and engagement with course materials through integration of research and critical analysis of project and individual processes.
 
-Participation (x2) provides strong evidence of engagement with course, supported by teaching team observation of active participation in scheduled sessions.
+Participation (x2) provides strong evidence of engagement with the course, supported by teaching team observation of active participation in scheduled sessions.
 Writing (x1) Writing is clear and coherent.
 
 ### Portfolio Container
 
-- Design (x1)
-The portfolio design is legible, creative and highly professional; with a clearly communicated purpose.
+Design (x1) The portfolio design is legible, creative and highly professional, with a clearly communicated purpose.
 
-- Structure (x1) The structure, navigation & usability of the site are well-considered.
+Structure (x1) The structure, navigation & usability of the site are well-considered.
 
 Technical (x1) Demonstrates technical proficiency in its execution.
 
