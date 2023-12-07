@@ -1,7 +1,7 @@
 # DECO-7180--Design-Computing-Studio-1---Interactive-Technology
 Design Computing Studio 1 - Interactive Technology
 
-## A1 - Annotated Process Portfolio (x3)
+## A1 - [Annotated Process Portfolio (x3)](https://github.com/carriewang1/DECO-7180--Design-Computing-Studio-1---Interactive-Technology/tree/main/Responsive%20Portfolio%20Website)
 This assessment is identity verified by teaching staff closely monitoring the individual work of students through students' participation and working on projects in class.
 Journal
 - Documentation of Work (x3)
