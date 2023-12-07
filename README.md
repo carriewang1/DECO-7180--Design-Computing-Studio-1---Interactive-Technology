@@ -44,3 +44,17 @@ Media Support (x1)
 - Language and writing style is fluent, literate & appropriate for a professional portfolio; spelling & grammar is of a high standard with no errors.
 - Sources (x1)
 External sources are clearly cited and appropriately referenced.
+
+----
+
+A2: [Design Inspiration]() INDV
+The first part of this studio involves a rapid exploration and review phase within the scope of the brief. Students will explore background material within the space over 2 weeks and prepare a potential project concept for discussion in class. To stimulate interesting project directions and concepts, you will need to explore the datasets related to the first 5 project briefs and generate interesting ways of focusing, filtering, searching, connecting and/or presenting the data.
+I produce a poster that illustrates & explains my idea (or ideas).
+
+----
+
+A3 
+In my the design project team, I have undertaken a rapid design sprint exploring the problem statements and associated datasets. I have developed a proof of concept responding to your selected problem statement that incorporates at least one of the associated datasets.
+For the rapid design sprint, I undertake this in the following way:
+During my scheduled week, there were four workshops, studio sessions, and outside-of-class time.
+The entirety of the week four workshops and studio sessions will be dedicated to working on the rapid design sprint to give you four hours of in-class working time.
