@@ -53,7 +53,7 @@ I produce a poster that illustrates & explains my idea (or ideas).
 
 ----
 
-## A3 [Rapid Design Sprint and Reflection]()
+## A3 [Rapid Design Sprint and Reflection](https://github.com/carriewang1/DECO-7180--Design-Computing-Studio-1---Interactive-Technology/blob/main/A3_7180_.pdf)
 In my the design project team, I have undertaken a rapid design sprint exploring the problem statements and associated datasets. I have developed a proof of concept responding to your selected problem statement that incorporates at least one of the associated datasets.
 For the rapid design sprint, I undertake this in the following way:
 During my scheduled week, there were four workshops, studio sessions, and outside-of-class time.
