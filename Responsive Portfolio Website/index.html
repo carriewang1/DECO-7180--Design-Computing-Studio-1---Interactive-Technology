@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#home" class="active"> Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#part1"> Project</a>
+                <a href="#part2">Team Process</a>
+                <a href="#part3">Final Delivery</a>
+                <a href="#part4">Portfolio</a>
+                <a href="#social">Social</a>
+
+
+            </nav>
+        </header>
+        <section id="home">
+            <div class="codes">
+                <div class="bg-animation">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+
+                    <div id="stars3"></div>
+                    <div id="stars4"></div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="container reveal">
+                <h4 class="size_up">Hello, my name is</h4>
+                <h1>Ruobing <span>Wang</span></h1>
+                <h1>
+                    <a href="" class="typewrite" data-period="2000"
+                        data-type='[ "Welcome", "I am Creative.", "I Love Design.", "Let we connect..." ]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h1>
+                <button onclick="window.location.href='#social'">Let' we connect...</button>
+
+
+
+
+
+                <h5>Please go Scroll Down to know more about me &#8595;</h5>
+                <div class="white" onclick="window.location.href= '#about';"></div>
+            </div>
+
+
+        </section>
+
+        <!----About section start---->
+        <section class="container reveal">
+            <section class="about" id="about">
+                <div class="main">
+
+                    <div class="about-text">
+                        <!--som start-->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="about-col-1">
+                                    <img src="img/self.PNG">
+                                </div>
+                                <div class="about-col-2">
+                                    <h1 class="sub-title">About Me</h1>
+                                    <h5>Developer <span>& Designer</span></h5>
+                                    <p>Hi, I am Ruobing Wang, well my friends usually call me Carrie.
+                                        I was stayed in Sydney for my bachelor's degree, and now I am so excited to move
+                                        to
+                                        Brisbane to continue my Master's degree in Interaction Design at the University
+                                        of Queensland.
+                                        I'm a student curious about all novelty things,
+                                        especially business data analytics and web/app design.
+                                        I love listening to music and painting stick figures in my free time.
+                                        My volunteer experience has given me a deeper understanding of teamwork;
+                                        this is my first time learning website design.
+
+                                    </p>
+
+                                    <div class="tab-titles">
+
+                                        <nav class="tab-links active-tab " onclick="opentab('experience')">Experience
+                                        </nav>
+                                        <nav class="tab-links " onclick="opentab('skills')">Skills</nav>
+                                        <nav class="tab-links" onclick="opentab('education')">Education</nav>
+                                    </div>
+
+                                    <div class="tab-contents active-tab " id="experience">
+                                        <ul>
+
+                                            <li><span>Feb 2022 - Jun 2022</span><br>
+                                                <h3>Unit Representative of a Finance unit</h3>
+                                            </li>
+                                            <br>
+                                            <li><span>Feb 2021 - Jul 2021</span>
+                                                <br>
+                                                <h3>Digital Marketing Analyst in AIESEC</h3>
+                                            </li>
+                                            <br>
+                                            <li><span>Feb 2020 - Jun 2022</span><br>
+                                                <h3>Global Leadership Program Undeergraduate with Merit</h3>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="skills">
+
+                                        <ul>
+                                            <li><span>UI/UX</span><br>
+                                                <h3>Designing Web/App interfaces</h3>
+                                            </li>
+                                            <!--skills strart-->
+                                            <div class="procon">
+                                                <div class="skills">
+                                                    <h2>HTML</h2>
+                                                    <div class="progress-bar">
+                                                        <div class="html"><span>86%</span></div>
+                                                    </div>
+                                                    <h2>CSS</h2>
+                                                    <div class="progress-bar">
+                                                        <div class="css"><span>75%</span></div>
+                                                    </div>
+                                                    <h2>JavaScript</h2>
+                                                    <div class="progress-bar">
+                                                        <div class="javascript"><span>68%</span></div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                            <!-- end-->
+                                            <li><span>Tabeau</span><br>
+                                                <h3>Data Analyst</h3>
+                                            </li>
+                                            <br>
+                                            <li><span>Python/Java Programming </span><br>
+                                                <h3>Programming </h3>
+                                            </li>
+                                            <br>
+                                            <li><span>R-lanuage/SQL/SPSS/Access</span><br>
+                                                <h3>Data Mining</h3>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="tab-contents" id="education">
+                                        <ul>
+                                            <li><span>Jul 2022 - present</span><br>
+                                                <h3>Master of Interaction Design from The University of Queensland </h3>
+                                                <br>
+                                            </li>
+                                            <li><span>Jul 2019 - Jun 2022</span><br>
+                                                <h3>Bachelor of Business Analytics from Macquarie University </h3>
+                                            </li>
+                                            <br>
+                                        </ul>
+                                    </div>
+
+
+
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <pre>
+                                        <code class="code">
+                                            function contactMe() {
+                                                var email;
+                                                if (confirm("Contact me ")) {
+                                                
+                                                  email = "helencarrie1109@gmail.com";
+                                                }
+                                                myheart.getElementById("address").innerConnect = email;
+                                              }
+                                        </code>
+                                      </pre>
+                            </div>
+
+                        </div>
+                        <div class="white" onclick="window.location.href= '#part1';"></div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="section_gap">
+            <h2>Part A</h2>
+        </div>
+
+        <section id="part1">
+            <!--Some work -->
+
+            <div class="service">
+                <article class="title">
+                    <h2> Our Project </h2>
+                    <img class="logo" src="img/logo.gif" alt="our project logo">
+
+
+
+                    <h3 class="titilecard">Our concept is designed to help young families who live in suburbs easily
+                        find a good
+                        restaurant, make an informed dining choice and park family car stress free.
+                        Provide safe dining experience for families with children while offering stress free parking in
+                        the Great Brisbane area. We worked as a team to contribute for this project .Our project name is
+                        Park4U,
+                        which means we aim to help people to find parking spaces and at the same time they could enjoy
+                        their meal.
+                        The 4 has similar pronunciation of Food.</h3>
+
+                    <div>
+                        <br>
+
+                        <ul class="list">
+                            <br>
+                            <br>
+
+
+                            <h3 class="center"><u>Logo:</u></h3>
+                            <h3>
+                                I was in charge of the design of our project logo. Our project's main idea is to
+                                help people find the right parking places and restaurants.
+                                I use the parking sign icon to present parking and cutlery to implied restaurants.
+                                I choose blue, grey and black as the keynote for our project layout.
+
+                            </h3>
+
+
+                            <h3 class="center"><u>Dataset usage:</u></h3>
+                            <h3>We use <a
+                                    >
+                                    Eat Safe Brisbane </a> dataset to help families make informed food and dining
+                                choices about a particular restaurant they are interested in going to.
+
+                                In addition, to ensure a simplified parking experience and a stress-free journey to
+                                the
+                                restaurant we use <a >occupancy forecasting</a>and <a >parking meter locations </a> datasets to display parking places on the map.
+                            </h3>
+
+
+                            <li>
+                                <h3 class="center"><u>Purpose of the application:</u></h3>
+                                <h3>Provide safe dining experience for families with children while offering stress free
+                                    parking in the city center</h3>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <h3 class="center"><u>Target audience:</u> </h3>
+                    <h3> People who live in Brisane city want to find parking spaces and dining out with friends and/or
+                        families.</h3>
+
+                </article>
+
+
+                <div class="box">
+                    <div class="card">
+
+
+                        <h3 class="cardcon">Car Parking Finding Process</h3>
+                        <div class="scroller">
+                            <div class="pra">
+                                <h3>When user enter one of the keywords of "restaurant name" in the search bar to search
+                                    for
+                                    nearby parking area and along with information ,
+                                    then the main interface of our map will recommend parking lots around user's choice
+                                    and
+                                    restaurant 's food safety "Rating List with top scores to lower Scores ."</h3>
+                                <h3>User also could check the nearest parking places avaibale with the distance meters
+                                    shows
+                                    .</h3>
+                                <h3>
+                                    After the user click "check avaliability" that will show the waiting time for the
+                                    current parking places if occupancied now.
+                                </h3>
+                                <h3>
+                                    With the booking function user can note the data and stay time duration to
+                                    focasting the selected parking palce , which images show in "Main Feature".
+                                </h3>
+
+                                <p style="text-align: center;">
+                                    <img src="img/map2.png" width="44%">
+                                    <img src="img/map.png" width="45%">
+
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <nav class="card">
+
+
+                        <h3 class="cardcon">Main Features </h3>
+                        <div class="scroller">
+                            <div class="pra">
+
+                                <h3>
+                                    <ul>
+                                        <li>· Search Parking Places </li>
+                                        <li>· Show User Current Location </li>
+                                        <li>· Show the Distance between Parking spots with Nearby Restaurants</li>
+                                        <li>· Forecasting parking lots</li>
+                                        <li>· Entertainment (Car Race Game)</li>
+                                    </ul>
+                                </h3>
+
+
+                                <p style="text-align: center;">
+
+
+                                    <img src="img/calender.png" width="29%">
+                                    <img src="img/avability.png" width="25%">
+
+
+                                </p>
+                                <h3>
+                                    <ul>
+                                        <li>
+                                            <h4>Datasets:</h4>
+                                        </li>
+                                        <li>
+                                            <h4 class="link"><a href="https://www.data.brisbane.qld.gov.au/data/dataset/brisbane-parking-meters/resource/fb42db12-7c82-40bb-8d3c-4f6119540edc
+                                            ">parking meter locations </a> </h4>
+                                            <h4 class="link"><a href="https://www.data.brisbane.qld.gov.au/data/dataset/parking-occupancy-forecasting
+                                            ">occupancy forecasting</a></h4>
+
+
+
+                                            <h4 class="link"><a href="https://www.data.brisbane.qld.gov.au/data/dataset/brisbane-parking-meters/resource/fb42db12-7c82-40bb-8d3c-4f6119540edc
+                                            ">parking meter locations </a></h4>
+                                        </li>
+                                        <li>
+                                            <h4>Explanition: </h4>
+                                        </li>
+                                        <li>1.Search Parking places -- enable user can input their intended restaurant
+                                            name </li>
+                                        <li>2.Show Use Location -- help user to locate their position and may promote
+                                            finding near restaurants around them </li>
+                                        <li>3.Show the Distance between Parking spots with Nearby Restaurants--
+                                            convenience users to find appropriate parking spaces </li>
+                                        <li>4.Forecasting parking lots -- call for API to get quart forecasting parking
+                                            information</li>
+                                        <li>5.Entertainment-- when users are bored in waiting parking can enjoy a game
+                                        </li>
+                                        <br>
+                                        <br>
+
+                                    </ul>
+                                </h3>
+                            </div>
+                        </div>
+                    </nav>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+
+        <!-----service section start----------->
+        <div class="service">
+            <article class="title1">
+                <!---nothing-->
+                <h2>Inital Idea Development</h2>
+
+                <!---nothing-->
+
+
+                <h3>Before starting this unit,
+                    I was always interested in dealing with the parking problem in the city area because sometimes
+                    I found it very difficult to find an appreciated parking place near a restaurant.
+                    In the context of this,
+                    I decide to use Brisbane parking meters and
+                    forecasting datasets to make forecasting
+                    for parking spaces and also use safety food permits to make sure customers will be able to parking
+                    and enjoy their meals. </h3>
+
+                <div>
+
+
+                    <ul class="list">
+                        <li>
+                            <h3 class="center"><u>Rapid Design Sprint:</u></h3>
+                            <h3>
+                                We grouped randomly, lucky we all interested Inner City Transport.
+                                Then, my rapid design topic was similar to our team's thinking.
+                                We agreed on how three datasets would join in the following weeks,
+                                at the beginning of the design phases. We discussed multiple times in user-centred
+                                design parts.
+                                There is something like how we help display the map and restaurant and what we can do to
+                                make our app more attractive.
+                                The rapid design sprint is more like a group of people brainstorming ideas, whereas the
+                                more extended design computing project is more about group collaboration.
+
+
+
+
+
+                            </h3>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+
+                <h3 class="center"><u>Refelction:</u> </h3>
+                <h3> In the future, there are so many things I would change different from this time.
+                    At the beginning of this project,
+                    I was thinking of making a unique and fun application that could help people find parking lots
+                    easily in Great Brisbane.
+                    However, there are a few technical limitations for me. Firstly, as a first-year student,
+                    I have to do more research to familiarise myself with the contents of this unit, and at the same
+                    time,
+                    I have to balance my other assessments with this one, which took me lots of time to do so.
+                    If there is any chance that I can change this situation,
+                    I would like to learn more knowledge on how to get APIs and js before starting this project.
+                </h3>
+
+
+
+
+
+
+            </article>
+
+
+            <div class="box">
+
+                <nav class="card">
+
+
+
+                    <h3 class="cardcon">Obstacles </h3>
+                    <div class="scroller">
+
+                        <h4>There were some problems we were facing when designing initially.
+                            This section displays what problems we encountered and how to solve them in the first design
+                            phase.
+                        </h4>
+
+                        <h3 class="subtitle">APIs:</h3>
+                        <span class="p1">
+
+                            <h4>
+                                The first problem is our first-time meeting this week; we are all first-year students
+                                who need to improve at javascript.
+                                We need to familiarize ourselves with how to deal with catch APIs to gain some helpful
+                                information.
+                                Since Our initial idea is for users could booking restaurants with us.
+                                In this case, for adding some extra APIs that we plan to add. For example,
+                                to finalize our booking function, restaurant photos and information.
+                                We have used Google API or Yelp API to get customer reviews and more restaurant details
+                                for the booking function.
+                                However, all those providers do not permit us to do so.
+                                ----Thus, I suggest using our current
+                                restaurant information to deal with this problem. For instance,
+                                we have safety food scores to show those restaurants' hygiene levels, with restaurant
+                                addresses showing how far with nearest parking places are.
+
+                            </h4>
+
+
+                        </span>
+
+                        <button class="More">..Show More</button>
+                        <h3 class="subtitle">Data Mining :</h3>
+                        <span class="p1">
+                            <h4>
+                                Moreover, another problem is live time data ( real-time) on detecting car parking
+                                available time.
+                                However, it also seems impossible to come true because of our lack of technical skills
+                                and APIs limitations.
+                                ----To deal with this problem, I suggested using forecasting datasets to show car
+                                parking.
+                                Nevertheless, we faced another problem: we aim to generate a booking function to let
+                                users lock this place.
+                                Then we have to adjust our project to save them as local storage (user
+                                screenshot)instead of the cloud storage of the data.
+
+                            </h4>
+                        </span>
+
+                        <button class="More">..Show More</button>
+                        <h3 class="subtitle">Inform Data Connection:</h3>
+
+                        <span class="p1">
+                            <h4>
+                                Then we were faced another problems with inform data to users which of among them are:
+                                1. With Filtering Data - no options to find a restaurant such as cuisine. 2.Food safety
+                                ranking - How to convince the public that 3 or 5 is also a good
+                                restaurant? A risk is associated with scale if people only look for 5-star restaurants.
+                                3. Target audience - How to improve the experience and help families in the early stages
+                                of decision-making?----Firstly, We plan to use only the restaurant name to filter our
+                                datasets regarding those
+                                issues.
+                                Then, to achieve loyalty to our customers, we decided to keep our entertainment section,
+                                a car game involved,
+                                along with some research on design flow and features. Next,
+                                by designing another page to explain the information of the safety score, meaning.
+
+
+
+
+                            </h4>
+                        </span>
+                        <button class="More">..Show More</button>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                    </div>
+
+                </nav>
+
+
+
+
+
+                <div class="card">
+
+                    <h3 class="goldtitle">My Contribution:</h3>
+                    <div class="scroller">
+                        <div class="pra">
+
+                            <h4>I searched vital datasets for what we could use and figured out how to connect them to
+                                make more
+                                sense for our project.
+                                I created a <a  href="#figma">Figma
+                                </a>to make a user test with my friends and got some feedback on how normal users
+                                reacted to this
+                                project.
+                                Since then, I have been the principal charge of the design layout of our project.
+                                Meanwhile,
+                                regarding my personality, <a>ESTJ-A</a>.
+                                I always work hard to bring my group members together,
+                                assist our leader and try my best to help them whenever they need it.</h4>
+
+
+                            <!---start game prove-->
+                            <h5>
+                                Since we decided to keep the game function which aim is to relax users if they have to
+                                wait too long before parking.
+                                Then I researched three articles: "Optimisation design and evaluation of parking route
+                                based on automatic assignment mechanism of parking lot",
+                                "Research on smart parking guidance and parking recommendation algorithm",
+                                and "An IoT-based parking recommendation system considering distance and parking lot
+                                flow. "
+                            </h5>
+                            <h5>Insights from three articles on adding a Game feature to the web application of our
+                                group project.</h5>
+
+                            <h5>
+                                A growing number of vehicles on the road has resulted in a general lack of parking
+                                availability, which causes additional stress to drivers and increases the risk of road
+                                accidents (Hilal, et., 2022). One of the successful functions added to the car parking
+                                web is a game used to model driver behaviour in indoor facilities with parking fees.
+                                Then The game of life is adjusted to the proposed model by filling, swapping, and
+                                emptying cells. Occupied cells with seven or more neighbours are released, and empty
+                                cells remain empty. Furthermore, the process of finding available parking increases
+                                carbon dioxide emissions. This work explained that a mobile application that uses games
+                                to find parking places is easy to find public indoor parking spaces. The mobile
+                                application helps the final user to find the recommended parking space quickly. The
+                                proposed system achieves substantial improvements for intelligent parking in indoor
+                                installations in terms of reducing the time and traversing distance to find an available
+                                parking space and can be enhanced with a tool to forecast future demand for parking
+                                spaces.
+
+                            </h5>
+                            <h5>
+                                Arriving customers maximise their utility by joining the queue, where the utility is a
+                                function of the reward for parking and the cost of circling and paying for parking
+                                (Ratliff et,.at, 2016). Moreover, it demenstres that social welfare is higher than in
+                                standard applications and occupancy and average waiting time are always less than
+                                without game addition in innovative car parking applications.
+
+
+                            </h5>
+                            <h5>
+                                On the other hand, games will offer interactivity, entertainment and fun aspects to the
+                                concept, as a report by Zhang, X., Li, P., and Li, D. (2014) where we discovered that
+                                cooperative gaming helps to achieve win-win situations.
+
+                            </h5>
+                            <h5 class="refrence">
+                                Ratliff, L. J., Dowling, C., Mazumdar, E., & Zhang, B. (2016). To observe or not to
+                                observe: Queuing game framework for urban parking. <i>2016 IEEE 55th Conference on
+                                    Decision
+                                    and Control (CDC).</i><a class="link" href="https://doi.org/10.1109/cdc.2016.779907">
+                                    https://doi.org/10.1109/cdc.2016.7799079</a>
+
+
+                            </h5>
+                            <h5 class="refrence">
+                                Li, P., Li, D., & Zhang, X. (2013). CGPS: A Collaborative Game in Parking-Lot Search.
+                                <i>Proceedings of International Conference on Soft Computing Techniques and Engineering
+                                    Application</i>, 105–113. <a
+                                    class="link" href="https://doi.org/10.1007/978-81-322-1695-7_13">https://doi.org/10.1007/978-81-322-1695-7_13</a>
+
+                            </h5>
+                            <h5 class="refrence">
+                                Hilal, H. A., Hilal, N. A., Hilal, A. A., & Hilal, T. A. (2022). Crowdsensing
+                                Application on Coalition Game Using GPS and IoT Parking in Smart Cities.<i> Procedia
+                                    Computer Science</i>, 201, 535–542. <a
+                                    class="link" href="https://doi.org/10.1016/j.procs.2022.03.069">https://doi.org/10.1016/j.procs.2022.03.069</a>
+
+
+
+                            </h5>
+                            <!--
+                                design features
+                            -->
+                            <h4>To improve user experience and parking spaces forecasting accuracy rate, regarding the
+                                above articles mentioned,
+                                our project includes a forecasting parking lot and parking times control bars.I also
+                                researched on three articles on how to dedign features on parking intelligent
+                                applications fo rour project.
+                            </h4>
+                            <h5>
+                                As Fang et .at ( 2017) state, the parking guidance system can improve traffic, ease
+                                congestion, increase safety, improve the driver's experience, and reduce vehicle
+                                emissions. Meanwhile, the parking guidance system can improve traffic, ease congestion,
+                                increase safety, improve the driver's experience, and reduce vehicle emissions.</h5>
+
+                            <h5>According to the research from Tsai in 2021, drivers slow down and look for available
+                                space when searching for a parking space, but if they cannot find one, they circle,
+                                which causes traffic congestion and increases the risk of accidents. Fang's formula of
+                                the travel distance between a parking lot and a destination is given by the following
+                                terms: reservation credibility, occupancy rate, straight distance, per kilometre of
+                                resources consumed, and parking time, which improves the parking space utilisation of
+                                the parking lot.</h5>
+                            <h5>The layout of AP devices in the parking lot is based on WiFi location technology. WiFi
+                                positioning technology can also be used for indoor positioning to predict the parking
+                                lot more. A questionnaire about the individual demand of parking users was conducted,
+                                and an optimal parking lot assignment model was established(Han et., at, 2017).
+
+                            </h5>
+                            <h5 class="refrence">Han, Y., Shan, J., Wang, M., & Yang, G. (2017). Optimization design and
+                                evaluation of parking route based on automatic assignment mechanism of parking
+                                lot.<i>Advances in Mechanical Engineering</i>, 9(7), 168781401771241. <a
+                                class="link" href="https://doi.org/10.1177/1687814017712416">https://doi.org/10.1177/1687814017712416</a>
+
+                            </h5>
+                            <h5 class="refrence">Fang, J., Ma, A., Fan, H., Cai, M., & Song, S. (2017, November 1).
+                                <i>Research on smart parking guidance and parking recommendation algorithm.</i> IEEE
+                                Xplore.
+                                <a
+                                class="link" href="https://doi.org/10.1109/ICSESS.2017.8342898">https://doi.org/10.1109/ICSESS.2017.8342898</a>
+
+
+                            </h5>
+                            <h5 class="refrence">Tsai, T.-C., & Chen, Y. (2021, October 1).
+                                <i>An IoT-based parking recommendation system considering distance and parking lot
+                                    flow.</i> IEEE Xplore.
+                                <a
+                                class="link" href="https://doi.org/10.1109/ICTC52510.2021.9620850">https://doi.org/10.1109/ICTC52510.2021.9620850</a>
+
+
+                            </h5>
+
+
+
+                            <!--end-->
+                            <h3 class="subtitle">Figma:</h3>
+                            <iframe id="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FuyU4je3L11Amr6vhCWcFhs%2FUntitled%3Fnode-id%3D0%253A1"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gap"></div>
+
+
+
+
+        <!--poster-->
+        <section class="container reveal" id="servicesplan">
+            <div class="service">
+
+
+                <div class="title">
+
+
+                    <h2>Our Poster</h2>
+                    <div class="scroller">
+
+
+
+                        <h3>In week13, I created the digital poster for our pitch section during the tradeshow. </h3>
+                        <h3>As we have a paper poster that contains more details of our project, I keep it simple and
+                            more active using " Canva".
+                            To suit our project more, I used the same font, icons and colours as ours.</h3>
+                        <h3>Furthermore, our project concept is a mobile-friendly application,
+                            and I used the iPhone model as the key display. All images inside the phone are from our
+                            actual project.</h3>
+                        <h4>Trade show infor display cover page :</h4>
+                        <img class="cover_page" src="img/Cover.jpeg" alt="cover page ">
+
+
+
+                        <h3 class="refrence">
+                            Canva:Digital Poster
+                            <a
+                            class="link" href="https://www.canva.com/design/DAFPjw3mDbg/watch">https://www.canva.com/design/DAFPjw3mDbg/watch</a>
+                        </h3>
+
+
+                        <h3 class="refrence">Parking Image:
+                            <a class="link" href="https://www.pexels.com/photo/bird-s-eye-view-of-parked-cars-1004409/f">
+                                https://www.pexels.com/photo/bird-s-eye-view-of-parked-cars-1004409/f</a>
+                        </h3>
+
+                        <h3 class="refrence">
+                            Top right restaurant image:
+                            <a
+                            class="link" href="https://www.pexels.com/photo/view-of-empty-restaurant-239975/">https://www.pexels.com/photo/view-of-empty-restaurant-239975/</a>
+                        </h3>
+                        <h3 class="refrence">
+                            Bottom restaurant image:
+                            <a
+                            class="link" href="https://www.pexels.com/photo/people-in-cafeteria-2159065/">https://www.pexels.com/photo/people-in-cafeteria-2159065/</a>
+                        </h3>
+                        <div class="white" onclick="window.location.href= '#part2';"></div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <!---poster images -->
+
+            <iframe id="my_poster"
+                src="https://docs.google.com/presentation/d/e/2PACX-1vQT6KztUtZem2tXTOoU-um8lYNE5YqxaWqL0OAJOcaGmZ0hIiyqf7cZRTYyMl1ofw/embed?start=true&loop=true&delayms=10000"
+                frameborder="0" width="1366" height="620" allowfullscreen="true" mozallowfullscreen="true"
+                webkitallowfullscreen="true"></iframe>
+
+
+        </section>
+        <br>
+        <div class="section_gap">
+            <h2>Part B</h2>
+        </div>
+
+        <!--startsection part B-->
+        <section id="part2">
+
+            <!--Some work -->
+
+            <div class="service">
+                <article class="title">
+
+
+                    <h2>Prototype</h2>
+
+
+                </article>
+
+
+                <div class="box">
+                    <div class="card">
+
+
+                        <h3 class="cardcon">low-fi Prototype</h3>
+                        <div class="scroller">
+                            <h4>
+                                The prototype is an excellent way to make our ideas tangible and perceptible.
+                                This design phase displays our prototypes, feedback from the test and reflection.
+                            </h4>
+                            <div class="pra">
+                                <h3 class="subtitle">My Contribution:</h3>
+                                <h3>In this test, I was the charge of observations ( taking note of participants'
+                                    emotional responses, body languages and recording the whole test session) </h3>
+                                <h3 class="subtitle">Test Purpose:</h3>
+                                <h3>During this section, we aim to figure out our primary object and explain the
+                                    methodologies we used.We used Powerpoint slides as our test tool compared to paper,
+                                    and PowerPoint is more straightforward for users.
+
+                                </h3>
+                                <h3 class="subtitle">Feedbacks:</h3>
+                                <h3>
+                                    we got the most positive feedback. While there was a suggestion on decreasing the
+                                    issue of "too much content" on one window . Thus, we planned to regard "<a class="link" href="https://doi.org/10.1108/IJRDM-01-2013-0035
+                                    ">the
+                                        atmosphere and layout design play an essential role in raising consumer pleasure
+                                        and
+                                        arousal</a>" to keep everything effeienct.To make consumers recognize the value
+                                    and
+                                    drive positive "attributes" from the app, we deploy additional usability tests to
+                                    offer stress-free and positive experiences.
+
+                                </h3>
+                                <h3 class="subtitle">Reflection:</h3>
+
+                                <h3>
+                                    After the user test, we understood how actual user responses on our project so far.
+                                    Regarding the feedback we received, our primary focus is to provide safe dining.
+                                    A free parking experience is essential to families living with children in the city
+                                    suburbs.
+                                </h3>
+
+                                <h3 class="subtitle">Test Slides: </h3>
+
+                                <p style="text-align: center;">
+                                    <img src="img/prototype.png" width="90%">
+
+
+                                </p>
+                                <h4 class="refrence">
+                                    Wu, W.-Y., Lee, C.-L., Fu, C.-S., & Wang, H.-C. (2013).
+                                    <i>How can online store layout design and atmosphere influence consumer shopping
+                                        intention on a website? </i>International Journal of Retail & Distribution
+                                    Management,
+                                    42(1), 4–24. <a
+                                    class="link" href="https://doi.org/10.1108/IJRDM-01-2013-0035">https://doi.org/10.1108/IJRDM-01-2013-0035</a>
+                                    <div class="white" onclick="window.location.href= '#part3';"></div>
+
+                                </h4>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <nav class="card">
+
+                        <h3 class="cardcon">MVP </h3>
+                        <div class="scroller">
+                            <h4>
+                                On accounting to our concept is to ensure stress-free parking and safety (Hygiene )
+                                restaurants dining experience for city residents' families.
+                            </h4>
+                            <div class="pra">
+                                <h3>
+                                    To ensure we could achieve the minimum viable product for our project, we used MSCW
+                                    (Must-Have, Should-Have, Could-Have, Will-Not-Have):
+                                </h3>
+                                <h3>
+                                    <ul>
+                                        <li>· Search function for surrounding parking lots with vacant parking spaces
+                                        </li>
+                                        <li>· Hygienic (Safty Food Permits )restaurants Score listn </li>
+                                        <li>· Keyword search function for Finding parking spaces </li>
+
+                                    </ul>
+                                </h3>
+                                <h4>Test process photo:</h4>
+
+
+                                <p style="text-align: center;">
+
+
+                                    <img src="img/prototype.jpg" width="50%">
+                                </p>
+
+
+
+                            </div>
+                        </div>
+
+                    </nav>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <div class="service">
+            <article class="title1">
+
+
+
+
+
+
+                <h3 class="center"><u>My Refelction:</u> </h3>
+                <h3> After the prototype section, I learnt the higher the resolution of a prototype could contribute,
+                    the less Feedback. Therefore, in my future prototype, I will keep the more explicit materials
+                    possible.
+                    As some of the Feedback states, we show so many functions, in the beginning, it makes users
+                    feel"dizzy".I will note them down to remind me to implement no more than one or two functions each
+                    time as a low-resolution prototype in case of cause overload.As Lerwick et al. discussed, we should
+                    inform the users, not explain a prototype; it is a task for us to generate brief goals we expect to
+                    achieve. The best material to use is to get from the prototype.
+
+
+                </h3>
+                <h4 class="refrence">
+                    Lewrick, M., Link, P., & Leifer, L. (2020). <i>Design Thinking Toolbox : A Guide to Mastering the
+                        Most
+                        Popular and Valuable Innovation Methods</i>. Wiley & Sons Canada, Limited, John.
+                </h4>
+
+
+
+
+
+
+            </article>
+
+
+        </div>
+        <!--endsection part B-->
+        <!--start section C-->
+        <div class="section_gap">
+            <h2>Part C</h2>
+        </div>
+        <section id="part3">
+            <!--Some work -->
+
+            <div class="service">
+                <article class="title">
+
+                    <h2 class="magrin2">Final Dilivery</h2>
+
+
+                    <h3 class="titilecard">
+                        This section shows our final delivery with Communication of Final Product, Communication of
+                        Final Product, my contribution, and my reflection.
+                    </h3>
+
+                    <div>
+
+                        <ul class="list">
+
+
+                            <li>
+                                <h3 class="center"><u>Change to Concept:</u></h3>
+
+                                <h3>
+                                    · Change the previous concept (Middle-class young families with 1-2 kids who
+                                    actively use a car at least one time per week in a restaurant ) to "People who live
+                                    in the great Brisbane area intend to find parking spaces and dine out with friends
+                                    and/or families"
+
+
+                                </h3>
+                                <h3>
+                                    · Changing the following concept is our purpose of implementing our application to
+                                    search the restaurant's list sorted by Food Safety Score from top to bottom.
+
+                                </h3>
+                                <h3>
+                                    · Add user current location on the search funtion page
+                                </h3>
+                                <h3>
+                                    · Change game from sudoku to Car game which is more suit to our project
+                                </h3>
+                                <h3>
+                                    · Insight ideas to prototypes or interviews with users instead of rely on group
+                                    members brainstorming
+                                </h3>
+                                <h3>
+                                    Referring to the previous critiques, we got the original concept not considering
+                                    that enough to demonstrate the relationship between parking finding and dining in
+                                    the restaurant.
+                                    Sorting the restaurant in descending safety food scores would enhance user
+                                    experience on the recommended dining out places and parking spots finding.
+
+                                </h3>
+
+
+                            </li>
+                            <h3 class="center"><u>Trade show result :</u></h3>
+                            <h3>
+                                Overall, we received the most positive Feedback from the external committee and students
+                                during the trade show. Meanwhile, we constantly invited other students to engage with
+                                our concept and collected valuable Feedback from different sources.
+                                Our team designed a concept that ensures stress-free parking and a safe dining
+                                experience for families living in the suburbs.
+                            </h3>
+                            <h3 class="center"><u>More improve :</u></h3>
+                            <h3>
+                                In group cooperation in the presentation, we should assign a few members to public
+                                speaking to better understand the audience and clearly outline the structure of our
+                                schedule at the beginning of the exhibition.Moreover, we should consider adding more
+                                interactive activities to our project in the user interface section, such as a colourful
+                                layout.Deeply miniing the Safety food dataset to provide more useful information to
+                                users.Make several improvements to the final product, including conducting additional
+                                user testing sessions with expert users, adding main navigation, and designing other
+                                pages such as contact, about us, how-to-use pages, etc.Moreover,If we have more time, I
+                                think we could redesign the "check availability" pages, introduce a tutorial, fix API
+                                content returning "null", which is help to improve search results, and filter incoming
+                                data with only
+                                keep relevant content.
+
+                            </h3>
+
+
+
+
+                        </ul>
+                    </div>
+
+
+                </article>
+            </div>
+
+
+
+        </section>
+
+        <!-----service section start----------->
+        <div class="service">
+
+
+
+            <div class="box">
+
+                <nav class="card">
+
+
+
+                    <h3 class="cardcon">My contribution </h3>
+                    <div class="scroller">
+
+                        <h4>
+                            There are some contreibutions I did for our <a class="link"  href="https://corvus.uqcloud.net/
+                            ">final project</a> delivery.
+
+                        </h4>
+
+
+
+
+                        <h3 class="subtitle">Calendar and duration bar Javascripts :</h3>
+                        <h3> In the final delivery project, I contributed to generating two pages for our website. The
+                            selected table contains calendars, the customised time duration bar, input time functions
+                            and game searching.Below are partical js codes :
+
+                        </h3>
+
+
+
+
+                        <img class="my_js" src="img/calendar_js.png" alt="my contribution">
+                        <img class="my_js" src="img/js_duration.png" alt="my contribution">
+
+
+
+                        <h3 class="subtitle">Tradeshow</h3>
+                        <span class="p1">
+
+                            <h4>
+                                I charged for decorating our exhibition place with balloons, car toys, and the
+                                hand-wirting signboard with our project name. All decorations refer to our project
+                                concepts, and my goal is to give users a better visual experience.
+
+
+                            </h4>
+
+
+                        </span>
+                        <button class="More">..Show More</button>
+                        <img class="my_js" src="img/decoration.png" alt="my contribution">
+                        <h4><a class="link" href="#my_poster">Digital poster </a>on showing in tradeshow </h4>
+                        <div class="white" onclick="window.location.href= '#part4';"></div>
+
+
+
+
+
+                        <br>
+                        <br>
+                        <br>
+
+                    </div>
+
+                </nav>
+                <p class="alt">Trade show user test</p>
+                <img class="my" src="img/trade_show.JPG" alt="my contribution">
+
+
+            </div>
+            <div class="service">
+                <article class="title">
+
+
+                    <div>
+
+                        <ul class="list">
+
+
+                            <li>
+                                <h3 class="center"><u>Reflection:</u></h3>
+
+                                <h4>
+                                    In the final delivery , I do believe we have successfully developed a solution that
+                                    helps families make hygienic Food and dining choices and offers a simplified parking
+                                    experience. Reasons showing below:
+
+
+                                </h4>
+                                <h3>
+                                    1. The project was quite successful because of our strong cooperation and
+                                    collaboration,
+                                    constant discussions, weekly group meetings and brainstorming sessions, and the
+                                    ability to develop solutions as a team.
+
+                                </h3>
+                                <h3>
+                                    2. The outcome is a fully functional prototype that meets most of the user needs to
+                                    be covered in this research. However, the concept could have been more engaging and
+                                    exciting.
+                                    quite
+
+                                </h3>
+                                <h3>
+                                    3. We want to improve the final product by conducting additional testing sessions
+                                    with expert users. For instance, add main navigation and design other pages such as
+                                    contact, about us, how-to-use pages, etc.
+
+                                </h3>
+                                <h3 class="center"><u>Course Reflection:</u></h3>
+                                <h3>
+                                    This course helped me to develop my problem-solving skills, one of the first
+                                    problems I encountered was how to show the calendar on the page and let the user
+                                    pick a date. It takes me a long time to search for some resources on HTML, CSS and
+                                    js. Firstly, I found an online source, but we had to pay; then, I tried another
+                                    research and finally found another option that did not require payment. Secondly,
+                                    after the first presentation, some of the audience tell us we should add more photos
+                                    of the restaurant. Yelp may be a good option. However, it requires us to send emails
+                                    and pay for the resource content. Because of that, we decided not to use restaurant
+                                    photos; instead, we chose to provide some phone numbers.
+                                </h3>
+                                <h3>
+                                    During these twelve weeks of study, I understood a bit about the design industry. In
+                                    the previous, I thought that design was art or a sign, not a relastic; however,
+                                    after study in this subject, I understand a good designer should understand the real
+                                    issue at the first stage so that that designer can make innovations in future. On
+                                    the other hand, I also learned how essential users' experiences are, as we did many
+                                    user tests, and the users are always the main targets. Thus, in my future design
+                                    journey, I will focus more on the potential customers, observing their activities
+                                    and attempting to comprehend their queries, motivations and interests.Meanwhile, I
+                                    realised we did not prepare very well for the user prototype from the previous user
+                                    test feedback. Hence, in the future innovation project, I will improve the future
+                                    user prototype processes according to the input.
+                                    Last but not least is time management; I feel a little bit rushed during this
+                                    period. In the future, I will create my to-do list and balance my other subjects.
+
+
+                                </h3>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+
+                </article>
+            </div>
+        </div>
+        <div class="gap"></div>
+
+
+        <!--endsection part C-->
+        <div class="section_gap">
+            <h2>Portfolio</h2>
+        </div>
+        <!-- startsection part D-->
+        <section id="part4">
+            <div class="box">
+                <div class="card">
+
+
+                    <h3 class="cardcon">Structure</h3>
+                    <div class="scroller">
+                        <div class="pra">
+
+                            <h3>Due to this is the first time designing my web portfolio, I searched lots of other
+                                designers' work, and the beginning of this web animation style I was inspired in Youtube
+                                channel on <a class="link" href="https://youtu.be/qEcXe51-ZTw">Text Tying Animation on website Using
+                                    HTML, CSS
+                                    and Js </a>.</h3>
+
+
+                            <img src="img/introduce.png" width="44%">
+                            <h3>In the <a class="link" href="#about">about me</a> section, I was inspired by online materials on<a
+                                    href="https://youtu.be/qEcXe51-ZTw"> How To Make A Portfolio Website Using HTML, CSS
+                                    JS.</a></h3>
+
+                            <img src="img/aboutme.png" width="44%">
+                            <h3>As i am the big fun of star i intent to add star in my portfolio as background then i
+                                searched from online materials <a
+                                class="link" href="https://codepen.io/riley-pearce/pen/OJWPjZM?fbclid=IwAR2HwzINeVhFg7-YQvFDV8Teh-IH6akXO9RY3uMTapRobDt-R9fJ6-GIMkY">Animation
+                                    Star Background.</a></h3>
+
+                            <h3>
+                                The following section <a class="link" href="#part1">part A</a>, presents the team project's initial
+                                ideas and final product and among with reflections.
+                            </h3>
+                            <img src="img/part1.png" width="44%">
+
+                            <h3>
+                                <a class="link" href="#part2">Part B </a>demonstrates our project process assessments, like the
+                                prototype and MVP process,
+                                and includes reflections on each.
+
+                            </h3>
+                            <img src="img/part2.png" width="44%">
+                            <h3>
+                                <a class="link" href="#part3">Part C </a>contains the final project delivery, exhibition show,
+                                related activities of my reflections and course reflection.
+
+                            </h3>
+                            <img src="img/part3.png" width="44%">
+                            <br>
+                            <br>
+
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <nav class="card">
+
+
+                    <h3 class="cardcon">Key Features </h3>
+                    <div class="scroller">
+                        <div class="pra">
+
+                            <h3>
+                                <ul>
+                                    · Main color used are :<h3 style="color: cyan;"> cyan</h3>
+                                    <h3 style="color: black">black</h3>
+                                    <h4>lightblue</h4>
+                                    <h3 style="color: goldenrod">goldenrod</h3>
+                                    <h3>white</h3>
+                                    <img src="img/color.png" width="44%">
+                                    <h3 style="color: #00c2cb">#00c2cb</h3>
+                                    <h3 style="color: #e0ffff">#e0ffff</h3>
+                                    <h3 style="color: #42455a">#42455a</h3>
+                                    <h3 style="color: #b54769">#b54769</h3>
+                                    <h3 style="color: #cddc39">#cddc39</h3>
+
+                                    <h3> · Font used <a
+                                        class="link" href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap">'League
+                                            Spartan', 'sans-serif'</a></h3>
+                                    <br>
+
+                                    · Sroller bar appears each small window
+                                    <br>
+                                    <br>
+                                    · The yellow bar display function of the "next section" ,where are located at
+                                    the bottom of the last left window in each part
+                                    <div class="white" onclick="window.location.href= '#social';"></div>
+                                    <br>
+
+                                    <li>· Navigation bar active when scroll in sections</li>
+                                    <img src="img/navigation.png" width="100%%">
+
+                                </ul>
+                            </h3>
+
+
+
+                            <h3>
+                                <ul>
+
+
+                                    <h4>Refelction </h4>
+
+                                    <h3>Generally speaking, I think my portfolio was a success, and I appreciate what I
+                                        have done so far. What should be contained is more creative styles. For
+                                        instance, my first thought was to create my portfolio with mouse animation on
+                                        the first page; however, I have not achieved it due to the lack of time.I am
+                                        proud of myself for finishing all HTML, CSS, JS and content on my sole, although
+                                        I have some that should be improved in this portfolio. I wish
+                                        I could do better in the next time for my future design work.</h3>
+                                    <br>
+                                    <br>
+
+                                </ul>
+                            </h3>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </section>
+        <!--endsection part D-->
+
+
+        <section id="social">
+
+
+
+            <!------footer start--------->
+            <footer>
+                <section>
+                    <div class="container reveal">
+                        <div class="social">
+
+                            <a href="https://www.linkedin.com/in/carrie-wang-0838871ba/"><img
+                                    src="img/linkedin.png"></a>
+                            <h2>Ruobing Wang</h2>
+                        </div>
+
+
+
+
+                    </div>
+                </section>
+
+            </footer>
+        </section>
+
+
+        <script src="script.js"></script>
+        <script src="class.js"></script>
+
+
+
+
+
+    </body>
+
+</html>
